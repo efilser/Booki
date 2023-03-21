@@ -28,34 +28,46 @@
                     </li>
                 </ul>
             </nav>
-            <div>
-                    <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+
+                <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
-                <form action="#" method="post">
-                    <label for="search"><i class="fa-solid fa-location-dot"></i></label>
+
+                <form>
+                    <label for="search">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </label>
                     <input type="search" id="search" name="search" placeholder="Marseille, France">
-                    <button type="submit">Rechercher</button>
+                    <button>Rechercher</button>
                 </form>
-                <div class="filtres">
-                    <p>Filtres</p>
-                    <i class="fa-solid fa-money-bill-wave"></i>
-                    <a href="#">Économique</a>
-                    <i class="fa-solid fa-person"></i>
-                    <a href="#">Familiale</a>
-                    <i class="fa-solid fa-heart"></i>
-                    <a href="#">Romantique</a>
-                    <i class="fa-solid fa-fire"></i>
-                    <a href="#">Nos pépites</a>
-                </div>
-                <div class="informations">
-                    <i class="fa-solid fa-info"></i>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
-            </div>
+
+                <section class="filtres">
+                    <h2>Filtres</h2>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                <p>Économique</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-person"></i>
+                                <p>Familiale</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-heart"></i>
+                                <p>Romantique</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-fire"></i>
+                                <p>Nos pépites</p>
+                            </li>
+                        </ul>
+                </section>
+
+                <p class="informations"><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </header>
+
         <main>
             <div class="hebergements-and-populaires">
-                <section id="hebergements">
+                <section id="hebergements" class="hebergements">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
                         <article class="card">
@@ -244,43 +256,52 @@
             <div id="activites" class="activites">
                 <section>
                         <h2>Activités à Marseille</h2>
-                    <article>
-                        <figure>
+                    <ul>
+                        <li>
                             <a href="#">
-                            <img src="./images/activites/reno-laithienne.jpg" alt="Vieux-Port">
-                            <figcaption>
-                                <p>Vieux-Port</p>
-                            </figcaption>
+                                <figure>
+                                    <img src="./images/activites/reno-laithienne.jpg" alt="Vieux-Port">
+                                    <figcaption>
+                                        <p>Vieux-Port</p>
+                                    </figcaption>
+                                </figure>
                             </a>
-                        </figure>
-                        <figure>
+                        </li>
+                        <li>
                             <a href="#">
-                            <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
-                            <figcaption>
-                                <p>Fort de Pomègues</p>
-                            </figcaption>
+                                <figure>
+                                    <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
+                                    <figcaption>
+                                        <p>Fort de Pomègues</p>
+                                    </figcaption>
+                                </figure>
                             </a>
-                        </figure>
-                        <figure>
+                        </li>
+                        <li>
                             <a href="#">
-                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques">
-                            <figcaption>
-                                <p>Parc national des Calanques</p>
-                            </figcaption>
+                                <figure>
+                                    <img src="./images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques">
+                                    <figcaption>
+                                        <p>Parc national des Calanques</p>
+                                    </figcaption>
+                                </figure>
                             </a>
-                        </figure>
-                        <figure>
+                        </li>
+                        <li>
                             <a href="#">
-                            <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde">
-                            <figcaption>
-                                <p>Notre-Dame-de-la-Garde</p>
-                            </figcaption>
+                                <figure>
+                                    <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde">
+                                    <figcaption>
+                                        <p>Notre-Dame-de-la-Garde</p>
+                                    </figcaption>
+                                </figure>
                             </a>
-                        </figure>
-                    </article>
+                        </li>
+                    </ul>
                 </section>
             </div>
         </main>
+
         <footer>
             <section>
                 <h3>À propos</h3>

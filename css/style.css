@@ -67,7 +67,7 @@ body {
 }
 
 /****** Hebergements ***********/
-#hebergements {
+.hebergements {
     width: 65%;
 }
 
