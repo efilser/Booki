@@ -1,4 +1,11 @@
+/****** Reset **********/
+
+figure { margin: 0 }
+ul { margin: 0; padding: 0; list-style: none }
+a { text-decoration: none; color: #000 }
+
 /****** General ***********/
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -123,7 +130,7 @@ body {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -157,6 +164,6 @@ body {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
     /* ... */
 }
