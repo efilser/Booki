@@ -18,30 +18,31 @@
     <div class="main-container">
         <header>
             <nav>
-                <img src="./images/logo/Booki.png" alt="Logo">
-                <ul>
-                    <li>
+                <img class="logo" src="./images/logo/Booki.png" alt="Logo">
+                <ul class="menu">
+                    <li class="liens-menu">
                         <a href="#hebergements">Hébergements</a>
                     </li>
-                    <li>
+                    <li class="liens-menu">
                         <a href="#activites">Activités</a>
                     </li>
                 </ul>
             </nav>
 
-            <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
-                <p>En plein centre-ville ou en pleine nature</p>
+            <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêves</h1>
+                <p class="card-title">En plein centre-ville ou en pleine nature</p>
 
-            <form>
+            <form class="recherche">
                 <label for="search">
                     <i class="fa-solid fa-location-dot"></i>
                 </label>
                 <input type="search" id="search" placeholder="Marseille, France">
-                <button>Rechercher</button>
+                <button class="rechercher">Rechercher</button>
+                <button class="rechercher-loupe"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
 
             <section class="filtres">
-                <h2>Filtres</h2>
+                <h2 class="sous-titre">Filtres</h2>
                     <ul>
                         <li>
                             <i class="fa-solid fa-money-bill-wave"></i>
@@ -62,7 +63,10 @@
                     </ul>
             </section>
 
-            <p class="informations"><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p class="informations">
+                <i class="fa-solid fa-info"></i>
+                Plus de 500 logements sont disponibles dans cette ville
+            </p>
         </header>
 
         <main>
@@ -185,7 +189,7 @@
                             </a>
                         </article>
                     </div>
-                        <p>Afficher plus</p>
+                        <p class="sous-titre">Afficher plus</p>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -304,39 +308,39 @@
 
         <footer>
             <section>
-                <h3>À propos</h3>
+                <h3 class="sous-titre">À propos</h3>
                 <ul>
-                    <li>
+                    <li class="card-title">
                         <a href="#">Fonctionnement du site</a>
                     </li>
-                    <li>
+                    <li class="card-title">
                         <a href="#">Conditions générales</a>
                     </li>
-                    <li>
+                    <li class="card-title">
                         <a href="#">Données et confidentialité</a>
                     </li>
                 </ul>
             </section>
 
             <section>
-                <h3>Nos hébergements</h3>
+                <h3 class="sous-titre">Nos hébergements</h3>
                 <ul>
-                    <li>
+                    <li class="card-title">
                         <a href="#">Charte qualité</a>
                     </li>
-                    <li>
+                    <li class="card-title">
                         <a href="#">Proposez votre hôtel</a>
                     </li>
                 </ul>
             </section>
 
             <section>
-                <h3>Assistance</h3>
+                <h3 class="sous-titre">Assistance</h3>
                 <ul>
-                    <li>
+                    <li class="card-title">
                         <a href="#">Centre d'aide</a>
                     </li>
-                    <li>
+                    <li class="card-title">
                         <a href="#">Nous contacter</a>
                     </li>
                 </ul>
