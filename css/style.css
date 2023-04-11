@@ -17,7 +17,7 @@ a {
 /****** Header **********/
 
 header .card-title {
-  margin-top: 8px;
+  margin-top: -27px;
 }
 
 nav {
@@ -60,14 +60,19 @@ nav {
   color: #0065FC;
 }
 
+.accueil {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin: 0 20px;
+}
 
 .recherche {
   display: flex;
-  margin-top: 35px;
 }
 
 .recherche label {  
-  height: 49px;
+  height: 50px;
   border-radius: 15px 0 0 15px;
   background-color: #F2F2F2;
 }
@@ -85,6 +90,8 @@ nav {
   text-decoration: none;
   font-size: 1.125rem;
   font-weight: bold;
+  border-top: solid 1px #F2F2F2;
+  border-bottom: solid 1px #F2F2F2;
 }
 
 .recherche input::placeholder {
@@ -106,7 +113,7 @@ nav {
 
 .rechercher-loupe {
   display: none;
-  width: 49px;
+  width: 50px;
   border: none;
   background-color: #0065FC;
   border-radius: 15px;
@@ -122,7 +129,6 @@ nav {
   gap: 15px;
   align-items: center;
   box-sizing: border-box;
-  margin: 35px 0;
 }
 
 .filtres ul {
@@ -422,6 +428,10 @@ footer li {
     padding-left: 0;
   }
 
+  .filtres li {
+    font-size: 1rem;
+  }
+
   /****** Hebergements ***********/
 
   .hebergements-and-populaires {
@@ -468,10 +478,6 @@ footer li {
 @media (max-width: 767px) {
   /****** Header **********/
 
-  header:not(nav) {
-    padding: 0 20px;
-  }
-
   nav {
     display: flex;
     flex-direction: column;
@@ -505,13 +511,17 @@ footer li {
     color: #0065FC;
   }
 
+  .recherche input {
+    width: 100%;
+  }
+
   .rechercher {
     display: none;
   }
-  
+
   .rechercher-loupe {
     display: flex;
-    height: 49px;
+    height: 50px;
   }
 
   .rechercher-loupe i {
@@ -521,6 +531,11 @@ footer li {
   .filtres ul {
     flex-wrap: wrap;
     gap: 10px;
+  }
+
+  .filtres li {
+    width: 162px;
+    font-size: 0.875rem;
   }
 
   /****** General ***********/
@@ -562,7 +577,7 @@ footer li {
 
   /****** Hebergements ***********/
 
-  .hebergements {
+  .hebergements-and-populaires .hebergements {
     background-color: white;
     padding: 20px;
   }
