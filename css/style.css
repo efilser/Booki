@@ -535,8 +535,9 @@ footer li {
   }
 
   .filtres li {
-    width: 162px;
+    width: 39vw;
     font-size: 0.875rem;
+    padding: 15px 10px;
   }
 
   /****** General ***********/
