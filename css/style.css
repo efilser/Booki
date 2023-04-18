@@ -109,6 +109,7 @@ nav {
   font-weight: bold;
   border-radius: 0 15px 15px 0;
   padding: 14px 16px;
+  cursor: pointer;
 }
 
 .rechercher-loupe {
@@ -118,6 +119,7 @@ nav {
   background-color: #0065FC;
   border-radius: 15px;
   padding: 16px 15px;
+  cursor: pointer;
 }
 
 .rechercher-loupe i {
@@ -148,6 +150,7 @@ nav {
   font-weight: bold;
   padding: 15px 19px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .filtres i {
@@ -538,6 +541,14 @@ footer li {
     width: 39vw;
     font-size: 0.875rem;
     padding: 15px 10px;
+  }
+
+  .filtres i {
+    margin-right: 6px;
+  }
+
+  .informations p {
+    width: 90%;
   }
 
   /****** General ***********/
